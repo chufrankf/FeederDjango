@@ -1,0 +1,68 @@
+
+/* Globals */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Base structure */
+
+html,
+body {
+ height: 100%;
+}
+body {
+ color: #fff;
+ text-align: center;
+ text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+ display: table;
+ width: 100%;
+ height: 100%;
+ min-height: 100%;
+
+ background-image: url('../image/mainbg01.jpg');
+ background-position: center;
+ background-size: cover;
+
+ -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+         box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+ display: table-cell;
+ vertical-align: top;
+}
+.cover-container {
+ margin-top: 200px;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+/* Navbar */
+.navbar-form{
+  padding-top: 3px;
+}
+.navbar-form.navbar-form-search{
+  width:80%;
+}
+.input-group{
+  width:100%;
+}
+
+/* Cover */
+.inner {
+ padding: 30px;
+}
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
